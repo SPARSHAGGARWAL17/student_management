@@ -25,6 +25,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.0
   font_awesome_flutter: ^8.10.0
+  http: ^0.12.2
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
 
 dev_dependencies:
   flutter_test:

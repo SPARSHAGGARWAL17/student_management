@@ -90,6 +90,7 @@ class CustomTextField extends StatelessWidget {
       showCursor: true,
       expands: false,
       validator: validator,
+      obscureText: !label.toLowerCase().contains('email'),
       decoration: InputDecoration(
         fillColor: Colors.white,
         filled: true,
